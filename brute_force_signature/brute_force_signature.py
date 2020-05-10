@@ -10,6 +10,9 @@ import sys
 import glob
 import serial
 
+
+# std_speeds = ['1843200', '921600', '460800', '230400', '115200', '57600', '38400', '19200', '9600', '4800', '2400',
+# '1200', '600', '300', '150', '100', '75', '50'] #Скорость COM порта
 std_speeds = ['9600', '115200']  # Скорость COM порта
 paritys = [
     serial.PARITY_EVEN, serial.PARITY_MARK, serial.PARITY_ODD,

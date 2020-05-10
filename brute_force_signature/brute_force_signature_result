@@ -1,0 +1,48 @@
+Сигнатура для поиска b' '
+Доступные порты:
+['/dev/ttyUSB0']
+Работаем с портом /dev/ttyUSB0
+timeout on /dev/ttyUSB0, 9600, 6, E, 1
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, M, 1
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, O, 1
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, N, 1
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, S, 1
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, E, 2
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, M, 2
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, O, 2
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, N, 2
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, S, 2
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, E, 1.5
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, M, 1.5
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, O, 1.5
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, N, 1.5
+---------------------
+timeout on /dev/ttyUSB0, 9600, 6, S, 1.5
+---------------------
+timeout on /dev/ttyUSB0, 9600, 7, E, 1
+---------------------
+timeout on /dev/ttyUSB0, 9600, 7, M, 1
+---------------------
+timeout on /dev/ttyUSB0, 9600, 7, O, 1
+---------------------
+
+RAW data on /dev/ttyUSB0, 9600, 7, N, 1:
+---------------------
+b'CH1 DC 0.0006 V\r\n'
+---------------------
+
+Сигнатура b' ' найдена при следующих настройках:
+/dev/ttyUSB0, 9600, 7, N, 1
